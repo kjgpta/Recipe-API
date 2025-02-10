@@ -1,12 +1,15 @@
 # Recipe API
 
-Welcome to the Recipe API repository. This API allows users to generate five unique recipes based on a combination of specified ingredients, cuisines, dietary restrictions, and nutritional preferences. Please note that this API is intended solely for research purposes and is not authorized for commercial use.
+Welcome to the Recipe API repository. This API allows users to generate five unique recipes based on a combination of specified ingredients, cuisines, dietary restrictions, and nutritional preferences. Whether you are looking for a high-protein vegetarian meal or a specific cuisine-based dish, this API can help you discover new and exciting recipes tailored to your needs.
 
 ## Features
 
-- Generate personalized recipes based on user-defined criteria.
-- Supports various cuisines, dietary restrictions, and nutritional preferences.
-- Returns detailed recipe information, including ingredients and cooking instructions.
+- Personalized Recipe Generation: Users can input specific ingredients, dietary restrictions, cuisines, and nutritional preferences to receive customized recipes.
+- Supports Various Cuisines: Whether you enjoy Italian, Mexican, Asian, or other global cuisines, the API provides diverse recipe options.
+- Dietary Restrictions Considered: The API accommodates various dietary needs, including vegetarian, vegan, gluten-free, and more.
+- Nutritional Preferences: Users can request high-protein, low-carb, or other nutritionally tailored recipes.
+- Detailed Recipe Information: Each response includes a recipe title, description, estimated cooking time, servings, ingredients list, and step-by-step cooking instructions.
+- Ease of Use: Simple JSON-based request and response structure for easy integration into other applications.
 
 ## Usage
 
