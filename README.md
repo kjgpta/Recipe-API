@@ -81,10 +81,8 @@ The API responds with an array of recipe objects. Each object contains:
 
 ## Postman Collection Access
 
-For access to the Postman collection, please send an email request to [your-email@example.com](mailto:your-email@example.com).
+For access to the Postman collection, please send an email request to [mailguptakshitij@gmail.com](mailto:mailguptakshitij@gmail.com).
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-**Note:** This API is intended for research purposes only and is not authorized for commercial use.
+This project is licensed under the Apache-2.0 license. See the [LICENSE](LICENSE) file for details.
