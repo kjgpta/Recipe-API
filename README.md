@@ -1,15 +1,16 @@
 # Recipe API
 
-Welcome to the Recipe API repository. This API allows users to generate five unique recipes based on a combination of specified ingredients, cuisines, dietary restrictions, and nutritional preferences. Whether you are looking for a high-protein vegetarian meal or a specific cuisine-based dish, this API can help you discover new and exciting recipes tailored to your needs.
+Welcome to the Recipe API repository. This API harnesses the power of GPT-based artificial intelligence to generate five unique and highly customized recipes based on specified ingredients, cuisines, dietary restrictions, and nutritional preferences. Whether you're in search of a high-protein vegetarian dish or a specific cuisine-inspired meal, this API provides innovative and tailored recipe suggestions using cutting-edge AI technology.
 
 ## Features
 
-- **Personalized Recipe Generation:** Users can input specific ingredients, dietary restrictions, cuisines, and nutritional preferences to receive customized recipes.
-- **Supports Various Cuisines:** Whether you enjoy Italian, Mexican, Asian, or other global cuisines, the API provides diverse recipe options.
-- **Dietary Restrictions Considered:** The API accommodates various dietary needs, including vegetarian, vegan, gluten-free, and more.
-- **Nutritional Preferences:** Users can request high-protein, low-carb, or other nutritionally tailored recipes.
-- **Detailed Recipe Information:** Each response includes a recipe title, description, estimated cooking time, servings, ingredients list, and step-by-step cooking instructions.
-- **Ease of Use:** Simple JSON-based request and response structure for easy integration into other applications.
+- **AI-Driven Recipe Generation:** Powered by GPT, the API analyzes user input and intelligently crafts unique, flavorful, and well-balanced recipes.
+- **Personalized Recommendations:** Users can input specific ingredients, dietary restrictions, cuisines, and nutritional preferences to receive tailored recipes.
+- **Supports Various Cuisines:** Whether you enjoy Italian, Mexican, Asian, or other global cuisines, the API provides diverse and authentic recipe options.
+- **Dietary Adaptability:** The AI ensures that recipes align with dietary needs, including vegetarian, vegan, gluten-free, and more.
+- **Nutritional Customization:** Users can request high-protein, low-carb, or other nutritionally optimized recipes tailored to their health goals.
+- **Comprehensive Recipe Details:** Each response includes a recipe title, description, estimated cooking time, servings, ingredient list, and step-by-step cooking instructions.
+- **Seamless Integration:** With a simple JSON-based request and response structure, the API can be easily incorporated into applications, meal planners, and research projects.
 
 ## Usage
 
@@ -35,11 +36,11 @@ To request recipes, send a JSON payload with the following structure:
 
 ### Output Response
 
-The API responds with an array of recipe objects. Each object contains:
+The API responds with an array of AI-generated recipe objects. Each object contains:
 
 - `Id` (integer): Unique identifier for the recipe.
 - `title` (string): Name of the recipe.
-- `description` (string): Brief description of the recipe.
+- `description` (string): AI-generated brief description of the recipe.
 - `cookTime` (string): Estimated cooking time.
 - `servings` (integer): Number of servings.
 - `ingredients` (array of strings): List of ingredients required.
@@ -78,14 +79,15 @@ The API responds with an array of recipe objects. Each object contains:
       "Serve hot."
     ]
   }
-...
+... 
 ]
 ```
 
-## Postman Collection Access
+## Access
 
-For access to the Postman collection, please send an email request to [mailguptakshitij@gmail.com](mailto:mailguptakshitij@gmail.com).
+For access to the Postman collection and API, please send an email request to [mailguptakshitij@gmail.com](mailto:mailguptakshitij@gmail.com).
 
 ## License
 
 This project is licensed under the Apache-2.0 license. See the [LICENSE](LICENSE) file for details.
+
