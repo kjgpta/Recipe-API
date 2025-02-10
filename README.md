@@ -75,6 +75,7 @@ The API responds with an array of recipe objects. Each object contains:
       "Serve hot."
     ]
   }
+...
 ]
 ```
 
