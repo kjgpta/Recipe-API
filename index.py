@@ -207,7 +207,7 @@ def generate_recipe(preferences: RecipeRequest):
             """
         
         response = client.chat.completions.create(
-            model="gpt-4o-2024-08-06",
+            model="gpt-4o-mini-2024-07-18",
             messages=[
                 {
 
