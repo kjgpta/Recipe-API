@@ -1,2 +1,6 @@
 .vercel
 __pycache__
+.env
+SmartChefAI.postman_collection.json
+.gitignore
+sc.py

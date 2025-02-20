@@ -3,3 +3,8 @@ uvicorn
 openai==1.61.1
 python-dotenv
 uvicorn
+torch
+transformers
+vllm
+pandas
+numpy
