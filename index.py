@@ -202,6 +202,8 @@ def generate_recipe(preferences: RecipeRequest):
                 12. Include suggested substitutions for any ingredients that may be hard to find.
                 13. Include all the ingredients thoroughly and in the correct order of use.
                 14. Aim to create delicious, gourmet-level meals that are visually appealing and satisfying.
+                15. Ensure that all the infredients are present in the list
+                16. Steps should be very detailed, ensuring no point of error.
 
             Generate only the **array of JSON objects** as described above, with **no additional commentary**.
             """
